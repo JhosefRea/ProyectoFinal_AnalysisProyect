@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"059bcd8d094e4038acb86f85d7791761","collectionName":"kaggle","type":"collection"}
