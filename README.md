@@ -20,6 +20,7 @@
 <p>Las noticias que causan revuelo internacional son el pan de cada día en emisoras tanto de radio como de televisión, empleando distintas herramientas para pretender saber qué tanto revuelo pueden causar, y que esas diversas noticias sean catalogadas como internacionales dentro de internet específicamente redes sociales</p>
 <h2>Cosecha de datos</h2>
 <p>Para el caso de recolección de datos se implemento el lengua de programación de Python, mediante el cual con scripts se realizo conexion con: facebook, twitter y tiktok. En adición también se realizo la cosecha de datos de herramientas y respositorios en linea tales como Kaggle y para lo relacionado con política de Ecuador se realizó mediante páginas y repositorios web del Concejo Nacional Electoral (CNE). </p>
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/arquitectura.png" alt="img1"/>
 <h4>Extracción de datos Facebook</h4>
 <p>Para obtener datos mediante Facebook se realizo la implementación del siguente scrip, el cual se conecta directamente con couchdb mediante la direccion de localhost, donde posteriormente se debe colocar el nombre de la página que queremos de facebook, seguido de eso se forma el archivo .json con los campos necesarios y por último s lo guarda. Para este caso las páginas que se tomaron como referencia fueron:</p>
 <h4>Extracción de datos Twitter</h4>
