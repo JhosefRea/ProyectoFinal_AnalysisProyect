@@ -35,6 +35,9 @@
 <li>Para implementar cada una de las bases de datos se debe iniciar los procesos de cerebro, elasticsearch y kibana. Cabe recalcar que ELK representan a las herramientas Elasticsearch, Logstash y Kibana.</li>
 <h4>Pulso político</h4>
 <p>Para el caso de pulso político ya que esta se subió a mysql se implemento mediante un archivo de configuración en logstash el cual dentro de su contenido tienen campos en su input de: dirección de localhost y su base de datos, user, password, Driver y libreria y el nombre de la tabla alojada en mysql. Para output se define que es un tipo json y la dirección y nombre del index al que la base de datos se va a subir.</p>
+<p>Una vez la base de datos se encuentra en elasticsearh se emplea Kibana para poder ver los resultados de manera gráfica, se crea un index dentro de la aplicación y con ello se definen las métricas por las cuales deseamos se presenten los resultados, en los casos de pulso político de 20 cantones se selecciona por el cantón y el partido político, del cual con ayuda del número de candidatos que han sido electos se presentan resultados. </p> 
+
+<p>Para el caso de pulso político por provincias, se ha relacionado el número de cantidatos que fueron inscritos para las elecciones seccionales y representantes nacionales, es decir asambleistas. Entonces por provincias se muestra el número de candidatos que se tiene, con lo cual se observa que Guayas tiene una mayor cantidad de postulantes a asambleistas que el resto de provincias.</p> 
 <h2>Anexos</h2>
 <table>
     <tr style="border: none;">
