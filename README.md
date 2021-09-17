@@ -4,8 +4,8 @@
     <li>Johán Quinatoa</li>
     <li>Jhosef Rea</li>
     <li>Antony Sánches</li>
-#Obejtivo
-Diseñar una arquitectura DataLake
+<h2>Obejtivo</h2>
+<p>Diseñar una arquitectura DataLake</p>
 
 <h2>Casos de Estudio</h2>
 <h3> Juegos en línea por países </h2>
@@ -26,7 +26,10 @@ Diseñar una arquitectura DataLake
 <p>Para obtener datos mediante Twitter se implemento el siguente script con el cual en primera instancia debemos colocar nuestros datos proporcionados por la API y nuestra cuenta de desarrollador de la aplicacion, con lo cual creamos in listener que estara activo mientras de ejecute el código, se forma el json y posteriormente se guarda en una base de datos en couchdb con esto, las búsquedas de cada caso de estudio se la realizo mediante TRAK o palabras clave para poder filtrar la información que se obtenda de Twitter, una vez terminado con esto se debe cerrar el proceso. Cabe recalcar que para el caso de análisis en tiempo real a travez de kibana se aplico un scrip diferente que se mencionará más adelante</p>
 <h4>Extracción de datos TikTok</h4>
 <p>Para obtener datos mediante TikTok simplemente se empleó la bibliiteca de tiktok-sraper y con una cuenta de cnn en español</p>
-
+<h4>Kaggle</h4>
+<p>Se hizo empleo de esta página web para obtener bases de datos del caso de estudio juegos. </p>
+<h4>CNE</h4>
+<p> Para obtener datos políticos de realizo el empleo de los datos proporcionados de CNE, cabe recalcar que sus bases de datos se ecnontraban con extensión .sav y se tuvo que emplear una aplicacion para poder transformarla a csv para su posterior tratamiento </p>
 <h2>Anexos</h2>
 <table>
     <tr style="border: none;">
