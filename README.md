@@ -37,8 +37,9 @@
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/ELK.png" alt="img2"/>
 <h4>Pulso político</h4>
 <p>Para el caso de pulso político ya que esta se subió a mysql se implemento mediante un archivo de configuración en logstash el cual dentro de su contenido tienen campos en su input de: dirección de localhost y su base de datos, user, password, Driver y libreria y el nombre de la tabla alojada en mysql. Para output se define que es un tipo json y la dirección y nombre del index al que la base de datos se va a subir.</p>
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/candidatos.png" alt="img10"/>
 <p>Una vez la base de datos se encuentra en elasticsearh se emplea Kibana para poder ver los resultados de manera gráfica, se crea un index dentro de la aplicación y con ello se definen las métricas por las cuales deseamos se presenten los resultados, en los casos de pulso político de 20 cantones se selecciona por el cantón y el partido político, del cual con ayuda del número de candidatos que han sido electos se presentan resultados. </p> 
-
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/Provincias.png" alt="img11"/>
 <p>Para el caso de pulso político por provincias, se ha relacionado el número de cantidatos que fueron inscritos para las elecciones seccionales y representantes nacionales, es decir asambleistas. Entonces por provincias se muestra el número de candidatos que se tiene, con lo cual se observa que Guayas tiene una mayor cantidad de postulantes a asambleistas que el resto de provincias.</p> 
 <h4>Juegos en línea por países</h4>
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/juegos1.png" alt="1"/>
@@ -58,7 +59,7 @@ Como resultados se puede observar en diagrama de barras que EE.UU tiene una mayo
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/mongo5.png" alt="img7"/>
 <h4>Noticias del mundo</h4>
 <p>Para el caso de noticias la base de datos se descargo directamente de tiktok, en la cual la cuenta seleccionada fue una de cnn en español, esta cuenta tiene gran cantidad de infromación por lo cual fue la idonea a nuestro parecer. El documento obtenido de esta base de datos fue en formato csv y este mismo fue tranferido a mysql para así obtener la base en sql. Con esto se ejecuta el archivo de configuracion para mysql en logstash, así se logra subir la base a elasticsearch. Al igual se realiza el análisis mediante kibana, y se obtienen los resultados de acuerdo a la siguentes métricas: canidad de noticias y paises por las cuales se difunden. Para este caso se tuvo la peculiaridad que la mayor parte de noticias no tienen un origen definido debido a que la misma no espécifica en que países se difunden, y ya que existen muchos países tiene tiene una barra de otros ya que no se pueden mostrar tantos países en una gráfica tan pequeña. Por último, se tiene que en Brasil es el país en el que las noticias tienen una mayor difusión.</p>
-
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/noticias.png" alt="img12"/>
 
 <h2>Anexos</h2>
 <table>
