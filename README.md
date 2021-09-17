@@ -62,8 +62,8 @@ Como resultados se puede observar en diagrama de barras que EE.UU tiene una mayo
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/noticias.png" alt="img12"/>
 
 <h2>Anexos</h2>
-<table>
-    <tr style="border: none;">
+<table style="border: none;">
+    <tr>
         <td>
             <h3>Video</h3>
             <p>https://youtu.be/lvR35qVmM5c</p>
@@ -72,39 +72,26 @@ Como resultados se puede observar en diagrama de barras que EE.UU tiene una mayo
             <a href="https://youtu.be/lvR35qVmM5c"><img style="width: auto; height: 150px;" src="https://images.pexels.com/photos/34407/pexels-photo.jpg?cs=srgb&dl=pexels-freestocksorg-34407.jpg&fm=jpg"></a>
         </td>
     </tr>
-</table>
-<table>
-    <tr style="border: none;">
+    <tr >
         <td>
             <h3>Presentación</h3>
             <p>https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf<p>
         </td>
         <td>
             <a href="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf">
-                    <img style="width: auto; height: 150px;" src="https://user-images.githubusercontent.com/85172489/133723061-89ec9703-2772-40c0-9a3d-70e4d0e784b8.png"></a>
+                    <img style="width: auto; height: 150px;" src="https://user-images.githubusercontent.com/85172489/133723061-89ec9703-2772-40c0-9a3d-70e4d0e784b8.png">
+            </a>
         </td>
     </tr>
-</table>
-<table>
-    <tr style="border: none;">
+    <tr>
         <td>
             <h3>Informe</h3>
             <p>https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf<p>
         </td>
         <td>
-            <a href="<table>
-    <tr style="border: none;">
-        <td>
-            <h3>Presentación</h3>
-            <p>https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/ADD%20informe%20final.pdf<p>
-        </td>
-        <td>
             <a href="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf">
-                    <img style="width: auto; height: 150px;" src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></a>
-        </td>
-    </tr>
-</table>">
-                    <img style="width: auto; height: 150px;" src="https://user-images.githubusercontent.com/85172489/133723061-89ec9703-2772-40c0-9a3d-70e4d0e784b8.png"></a>
+                    <img style="width: auto; height: 150px;" src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+            </a>
         </td>
     </tr>
 </table>
