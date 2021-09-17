@@ -61,3 +61,16 @@ Como resultados se puede observar en diagrama de barras que EE.UU tiene una mayo
         </td>
     </tr>
 </table>
+<table>
+    <tr style="border: none;">
+        <td>
+            <h3>Presentación</h3>
+            <p>https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf<p>
+        </td>
+        <td>
+            <a href="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/Presentaci%C3%B3n.pdf">
+                    <img style="width: auto; height: 150px;" src="https://images.pexels.com/photos/5311449/pexels-photo-5311449.jpeg?cs=srgb&dl=pexels-karolina-grabowska-5311449.jpg&fm=jpg"></a>
+        </td>
+    </tr>
+</table>
+
