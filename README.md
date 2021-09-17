@@ -41,11 +41,12 @@
 
 <p>Para el caso de pulso político por provincias, se ha relacionado el número de cantidatos que fueron inscritos para las elecciones seccionales y representantes nacionales, es decir asambleistas. Entonces por provincias se muestra el número de candidatos que se tiene, con lo cual se observa que Guayas tiene una mayor cantidad de postulantes a asambleistas que el resto de provincias.</p> 
 <h4>Juegos en línea por países</h4>
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/juegos1.png" alt="1"/>
 <p> Para este caso se obtuvo la base de datos de Kaggle, de la cual el archivo obtenido se transforma a formato sql, para implementarse dentro de la sistema gesto de mysql. Con la base de datos creada, mediante un script de configuración en logstash se ejecuta. Este script contiene los datos necesarios de mysql, y como output los datos de elasticsearch para poder realizar la conexión correctamente. Con esto se tiene la base de datos sql en elasticsearch, ahora mediante kibana de realiza la visualizacion de resultados. 
 Los criterios para poder mostrar los resultados de las métricas son: los países, los juegos y en dónde se producen la mayor cantidad de los mismos.
 Como resultados se puede observar en diagrama de barras que EE.UU tiene una mayor cantidad de empresas produtoras de videojuegos y que los mismos son mayormente consumidos por jugadores.</p>
-<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/juegos1.png" alt="1"/>
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/juegos2.png" alt="2"/>
+<img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/juegos3.png" alt="3"/>
 <h4>Python</h4>
 <img src="https://github.com/JhosefRea/ProyectoFinal_AnalysisProyect/blob/main/img/mongo1.png" alt="img3"/>
 <p>Para el tema seleccionado python este previamente se ha ejecutado con un script en facebook para obtener una base de datos inicial, y la misma mediante script se ha guardado en Mongod. Una vez reaizado el archivo de configuracion para mongodb este se ejecuta y al igual que los anteriores se agrega a elasticsearch. Para el análisis mediante kibaba en tiempo real se ejecuto un script por logstash para que los elementos se sigan agregando a la base de datos y ver la progresion y velocidad con la cual se obtienen datos, esto se logra visualizar de mejor manera gracias a kibana<p/>
