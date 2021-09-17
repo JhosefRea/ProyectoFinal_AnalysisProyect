@@ -30,6 +30,11 @@
 <p>Se hizo empleo de esta página web para obtener bases de datos del caso de estudio juegos. </p>
 <h4>CNE</h4>
 <p> Para obtener datos políticos de realizo el empleo de los datos proporcionados de CNE, cabe recalcar que sus bases de datos se ecnontraban con extensión .sav y se tuvo que emplear una aplicacion para poder transformarla a csv para su posterior tratamiento </p>
+<h2>Procedimiento</h2>
+<p>Como primer paso dentro de cada base de datos se tuvo que realizar depuracion de cada una debido a que en muchos casos se encontraban espacios vacios o columnas sin ningun tipo de información por lo cual ayudados de herramients que cada integrante de grupo aplicoa su discrecion estas fueron depuradas, las herramientas empleadas para depuración son: rapidminer, excel.</p>
+<li>Para implementar cada una de las bases de datos se debe iniciar los procesos de cerebro, elasticsearch y kibana. Cabe recalcar que ELK representan a las herramientas Elasticsearch, Logstash y Kibana.</li>
+<h4>Pulso político</h4>
+<p>Para el caso de pulso político ya que esta se subió a mysql se implemento mediante un archivo de configuración en logstash el cual dentro de su contenido tienen campos en su input de: dirección de localhost y su base de datos, user, password, Driver y libreria y el nombre de la tabla alojada en mysql. Para output se define que es un tipo json y la dirección y nombre del index al que la base de datos se va a subir.</p>
 <h2>Anexos</h2>
 <table>
     <tr style="border: none;">
