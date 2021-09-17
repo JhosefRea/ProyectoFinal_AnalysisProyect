@@ -1,9 +1,9 @@
 <h1>Data Lake</h1>
 #Integrantes
-<li>Bryan Quisaguano</>li
-    <li>Johán Quinatoa</>li
-    <li>Jhosef Rea</>li
-    <li>Antony Sánches</>li
+<li>Bryan Quisaguano</li>
+    <li>Johán Quinatoa</li>
+    <li>Jhosef Rea</li>
+    <li>Antony Sánches</li>
 #Obejtivo
 Diseñar una arquitectura DataLake
 
