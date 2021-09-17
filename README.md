@@ -18,6 +18,13 @@ Diseñar una arquitectura DataLake
 <p>Ya que hoy en día el lenguaje de programación Python es uno de los más populares en el mundo, se pretende obtener datos para así saber que tan grande es la comunidad de América Latina y que tanto este tema es mencionado dentro de las redes sociales.</p>
 <h3>Noticias mundiales</h3>
 <p>Las noticias que causan revuelo internacional son el pan de cada día en emisoras tanto de radio como de televisión, empleando distintas herramientas para pretender saber qué tanto revuelo pueden causar, y que esas diversas noticias sean catalogadas como internacionales dentro de internet específicamente redes sociales</p>
+<h2>Cosecha de datos</h2>
+<p>Para el caso de recolección de datos se implemento el lengua de programación de Python, mediante el cual con scripts se realizo conexion con: facebook, twitter y tiktok. En adición también se realizo la cosecha de datos de herramientas y respositorios en linea tales como Kaggle y para lo relacionado con política de Ecuador se realizó mediante páginas y repositorios web del Concejo Nacional Electoral (CNE). </p>
+<h4>Extracción de datos Facebook</h4>
+<p>Para obtener datos mediante Facebook se realizo la implementación del siguente scrip, el cual se conecta directamente con couchdb mediante la direccion de localhost, donde posteriormente se debe colocar el nombre de la página que queremos de facebook, seguido de eso se forma el archivo .json con los campos necesarios y por último s lo guarda. Para este caso las páginas que se tomaron como referencia fueron:</p>
+<h4>Extracción de datos Twitter</h4>
+<p>Para obtener datos mediante Twitter se implemento el siguente script con el cual en primera instancia debemos colocar nuestros datos proporcionados por la API y nuestra cuenta de desarrollador de la aplicacion, con lo cual creamos in listener que estara activo mientras de ejecute el código, se forma el json y posteriormente se guarda en una base de datos en couchdb con esto, las búsquedas de cada caso de estudio se la realizo mediante TRAK o palabras clave para poder filtrar la información que se obtenda de Twitter, una vez terminado con esto se debe cerrar el proceso. Cabe recalcar que para el caso de análisis en tiempo real a travez de kibana se aplico un scrip diferente que se mencionará más adelante</p>
+
 <h2>Anexos</h2>
 <table>
     <tr style="border: none;">
